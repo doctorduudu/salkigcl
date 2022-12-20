@@ -83,7 +83,7 @@ const NavBar = () => {
               SALKI GCL
             </Typography>
             <IconButton
-              size="large"
+              size="small"
               edge="start"
               color="inherit"
               aria-label="menu"
@@ -94,18 +94,18 @@ const NavBar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FacebookIcon fontSize="large" color="secondary" />
+                <FacebookIcon fontSize="small" color="secondary" />
               </a>
             </IconButton>
             <IconButton
-              size="large"
+              size="small"
               edge="start"
               color="inherit"
               aria-label="menu"
               sx={{ mr: 2 }}
             >
               <a href="#contact">
-                <CallIcon fontSize="large" color="secondary" />
+                <CallIcon fontSize="small" color="secondary" />
               </a>
             </IconButton>
           </Toolbar>
